@@ -65,9 +65,3 @@ class Purchase:
         print(
             f"Категория с наибольшим количеством проданных товаров: {self.most_frequent_category()}"
         )
-
-    def save_raw_db(self):
-        pass
-
-    def __del__(self):
-        pass

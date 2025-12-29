@@ -1,5 +1,11 @@
 from purchase import Purchase
 
-purchase = Purchase("purchases.json")
 
-purchase.print_info()
+def main():
+    purchase = Purchase("purchases.json")
+
+    purchase.print_info()
+
+
+if __name__ == "__main__":
+    main()
